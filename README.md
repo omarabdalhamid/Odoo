@@ -1,6 +1,6 @@
 Odoo Architecture
 
-![myimage-alt-tag](https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2018/06/20/Cloudfront-Map-whiteBG-1024x581.png)
+![myimage-alt-tag](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35qQIZ6qYgdZBLDR9Uk6sX0Tw-n4M9a9PhKzedttsWYrO_OoE)
 The Data tier is the lowest-level layer, and is responsible for data storage and persistence. Odoo relies on a PostgreSQL server for this. PostgreSQL is the only supported RDBMS, and this is a design choice. So, other databases such as MySQL are not supported. Binary files, such as attachments of documents or images, are usually stored in a filesystem.
 
 The Logic tier is responsible for all the interactions with the data layer, and is handled by the Odoo server. As a general rule, the low-level database should only be accessed by this layer, since it is the only way to ensure security access control and data consistency. At the core of the Odoo server, we have the Object-Relational Mapping (ORM) engine for this interface. The ORM provides the application programming interface (API) used by the addon modules to interact with the data.
