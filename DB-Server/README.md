@@ -110,3 +110,30 @@ This parameter sets the maximum number of temporary buffers used by each databas
 PostgreSQL database utilizes this memory area for holding the temporary tables of each session, these will be cleared when the connection is closed.
 
 The default value of temp_buffer = 8MB.
+
+Pgbouncer
+
+Pgbouncer is a stable, in-production connection pooler for PostgreSQL. PostgreSQL doesn’t realise the presence of PostgreSQL. Pgbouncer can do load handling, connection scheduling/routing and load balancing.
+
+It provides three types of pooling(default to session) methods, described below: –
+
+1. Session Pooling :- The client uses connection for the entire duration it stays connected & only returns once disconnected.
+
+2. Transaction Pooling :- Client can use connection only for a transaction. Connection is taken away once the transaction is completed. Therefore, session-based features of PostgreSQL can’t be achieved.
+
+3. Statement Pooling :- This is transaction pooling with multi-statement transactions disallowed. This is meant to enforce “autocommit” mode on client, mostly targeted for PL/Proxy.
+
+Check this for compatible PostgreSQL features for different Pooling methods.
+
+![pgbouncer](https://miro.medium.com/max/710/1*mejeFzdaOJgC5aaLs5_g4w.png)
+
+![pgbouncer](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTWkyTWygFX6ybhWAAX6I7DJFpyE8NPurD9zBo5_DsnetTwYWX)
+
+
+DB Queries Directly On PostgreSQL
+
+![ppp](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/11/Screenshot-from-2018-11-13-16-11-52.png)
+
+DB Queries Via Pgbouncer
+![ppd](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/11/Screenshot-from-2018-11-13-16-11-52.png)
+
