@@ -16,3 +16,4 @@ A complementary presentation layer is the included website framework. It gives f
 Due to the openness of the Odoo server API, other client implementations are possible, and could be built in almost any platform or programming language. Desktop and smartphone apps can be built to provide specific user interfaces, leveraging the Odoo Data and Logic tiers for business logic and data persistence.
 
 A particular example of a third-party Odoo client is ERPpeek. It is a command- line client, allowing you to connect and interact with remote Odoo servers. It can be useful for developers or system administrators with Odoo technical knowledge, to inspect data on the server, script advanced operations, or perform maintenance operations. We will present an overview of ERPpeek in Chapter 8, External API – Integrating with Other Systems.
+
