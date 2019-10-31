@@ -135,5 +135,6 @@ DB Queries Directly On PostgreSQL
 ![ppp](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/11/Screenshot-from-2018-11-13-16-11-52.png)
 
 DB Queries Via Pgbouncer
+
 ![ppd](https://cdnblog.webkul.com/blog/wp-content/uploads/2018/11/Screenshot-from-2018-11-13-16-11-52.png)
 
