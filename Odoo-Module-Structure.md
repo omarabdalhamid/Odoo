@@ -1,7 +1,7 @@
 
 Odoo Module Structure
 
-[myimage-alt-tag](http://www.getodootraining.com/wp-content/uploads/2018/10/init__.py_-724x1024.png)
+[myimage-alt-tag]( http://www.getodootraining.com/wp-content/uploads/2018/10/init__.py_-724x1024.png)
 
 1.__init__.py
 It’s initialisation python file of odoo module where all other python file are imported. Means, you can import all the python files directory which used in odoo module. Let’s say in module you have 2 model files named with test.py and hello.py
